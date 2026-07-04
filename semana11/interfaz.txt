@@ -1,0 +1,24 @@
+ESPECIFICACIÓN DE LA INTERFAZ - PLATAFORMA COMUNITARIA
+
+
+1. VISTA DE CAUSAS DISPONIBLES
+Es la pantalla central de la aplicación donde se listan todas las iniciativas activas. Permite a los usuarios explorar rápidamente los proyectos y necesidades de la comunidad.
+
+2. TARJETAS DE CAUSA 
+Cada causa se visualiza en un recuadro o módulo individual que contiene:
+
+- Información pública: Título de la iniciativa, descripción de la propuesta y fecha de publicación.
+- Contador de apoyos: Muestra el número total de personas que respaldan la causa de forma visible (Ejemplo: 42 personas apoyan esta causa).
+- Botón de apoyo: Un botón de acción rápida ("Apoyar causa") para sumar un respaldo de manera inmediata.
+
+3. FORMULARIO PARA CREAR UNA CAUSA
+
+Sección accesible y clara para que los miembros publiquen nuevas iniciativas. Incluye exclusivamente los siguientes campos:
+
+- Título: Campo breve para el nombre descriptivo de la causa.
+- Descripción: Área de texto detallada para explicar la necesidad o del proyecto comunitario.
+- Fecha: Selector para indicar la fecha relacionada con la iniciativa.
+- Botón de Publicar: Acción para confirmar y enviar los datos a la plataforma.
+
+4. CRITERIOS DE PRIVACIDAD Y SEGURIDAD
+La interfaz está diseñada para proteger la identidad de la comunidad. En las vistas públicas se omite estrictamente cualquier dato privado sensible, como contraseñas, correos electrónicos, números de teléfono, direcciones o tokens de acceso.

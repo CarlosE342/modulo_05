@@ -1,0 +1,44 @@
+Entidad: Usuario
+
+Campos principales:
+- id
+- nombre_completo
+- correo_electronico
+- contrasena_hash
+- fecha_registro
+- rol (administrador, miembro)
+
+Propósito:
+Gestionar los perfiles de las personas registradas en la plataforma.
+Permite la autenticación, la asignación de roles y la identificación de quién crea o apoya las iniciativas dentro de la comunidad.
+
+---------------------------------------------------------------------------
+Entidad: Iniciativa 
+
+Campos principales:
+
+- id 
+- id_creador 
+- titulo
+- descripcion
+- categoria (medio ambiente, educación, infraestructura)
+- estado (activa, en_progreso, completada)
+- fecha_publicacion
+
+Propósito:
+Almacenar las propuestas, problemas o proyectos comunitarios que los usuarios comparten en la plataforma. Toda la información necesaria para que la comunidad entienda la causa y decida si quiere involucrarse vive aquí.
+
+---------------------------------------------------------------------------
+Entidad: Participación
+
+Campos principales:
+
+- id 
+- id_iniciativa 
+- id_usuario
+- tipo_apoyo (voluntariado, donación, firma)
+- comentario_opcional
+- fecha_participacion
+
+Propósito:
+Registrar y hacer seguimiento de las interacciones entre los usuarios y las iniciativas. Sirve para medir el nivel de involucramiento de la comunidad, saber quién está apoyando qué proyecto, y de qué manera específica (tiempo, recursos, etc.).

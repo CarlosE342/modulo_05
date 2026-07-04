@@ -1,0 +1,14 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+- Historia 1: Como ciudadano quiero registrar una iniciativa comunitaria para visibilizar el trabajo social en la región.
+- Historia 2: Como veedor ciudadano quiero consultar el estado y presupuesto de los proyectos para garantizar la transparencia en la gestión de recursos.
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque juntas forman el Producto Mínimo Viable del sistema. La primera permite la entrada de datos (creación) y la segunda permite la visualización de esos mismos datos. No tiene sentido desarrollar funciones de notificaciones o reportes si el sistema aún no es capaz de registrar y mostrar la información base. 
+
+3. ¿Qué significa para ti que una tarea esté "terminada"? 
+Una tarea se considera terminada cuando cumple con los siguientes criterios:
+
+- Funcionalidad: El código desarrollado cumple exactamente con lo descrito en la historia de usuario y no rompe funciones anteriores.
+- Pruebas: Se probaron los flujos principales (tanto casos de éxito como de error) y el código funciona sin fallos.
+- Control de versiones: El código final fue subido e integrado correctamente en la rama principal del repositorio en Git.
+- Calidad: El código está limpio, documentado donde es necesario y listo para ser desplegado.

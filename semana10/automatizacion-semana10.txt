@@ -1,0 +1,21 @@
+¿Qué evento activa el flujo?
+El flujo se activa a través de un nodo Webhook en n8n cada vez que un cliente envía un nuevo formulario de contacto o queja a través del sitio web de la empresa.
+
+¿Qué mensaje se enviaría a Telegram?
+El nodo de Telegram enviará un mensaje de alerta a un grupo privado (solo para el equipo de atención al cliente) con el siguiente formato:
+
+¡Nuevo ticket de soporte registrado!
+Asunto: [Categoría seleccionada por el usuario / Falla en la plataforma]
+ID del caso: #011
+Por favor, ingresar al sistema de gestión interna para revisar y atender la solicitud.
+
+¿Qué información no debería enviarse por seguridad?
+Para proteger la privacidad del usuario y evitar exponer datos sensibles en una aplicación de mensajería externa, está estrictamente prohibido enviar:
+
+- Nombres completos y apellidos.
+- Correos electrónicos o números de teléfono personales.
+- Documentos de identidad (cédula, pasaporte).
+- Direcciones físicas de residencia.
+- Contraseñas, tokens de sesión o datos bancarios que el usuario haya podido incluir por error en el cuerpo del mensaje.
+
+En resumen: datos reales o sensibles, que son los que terminan conllevando un riesgo

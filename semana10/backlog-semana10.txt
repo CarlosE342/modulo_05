@@ -1,0 +1,9 @@
+Historias de usuario por orden de prioridad
+
+Como ciudadano quiero registrar una iniciativa comunitaria para visibilizar el trabajo social en la región.
+
+Como veedor ciudadano quiero consultar el estado y presupuesto de los proyectos para garantizar la transparencia en la gestión de recursos.
+
+Como promotor social quiero enviar notificaciones masivas para convocar a la comunidad a las próximas asambleas.
+
+Como coordinador quiero generar un reporte estadístico mensual para evaluar el impacto de los programas de paz.
